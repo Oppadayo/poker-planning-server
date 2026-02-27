@@ -1,0 +1,20 @@
+package com.paula.pokerplanning_server.domain.model;
+
+public enum EventType {
+    PARTICIPANT_JOINED,
+    PARTICIPANT_LEFT,
+    PARTICIPANT_KICKED,
+    STORY_CREATED,
+    STORY_UPDATED,
+    STORY_DELETED,
+    STORY_REORDERED,
+    STORY_SELECTED,
+    ROUND_STARTED,
+    VOTE_CAST,
+    ROUND_REVEALED,
+    ROUND_RESET,
+    ROUND_FINALIZED,
+    HOST_TRANSFERRED,
+    ROOM_CLOSED,
+    STATE_SNAPSHOT
+}

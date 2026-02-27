@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(docker-compose logs backend --tail=50)",
+      "Bash(docker ps -a --format \"table {{.Names}}\\\\t{{.Status}}\\\\t{{.Networks}}\")",
+      "Bash(docker-compose up -d)",
+      "Bash(docker ps --format \"table {{.Names}}\\\\t{{.Status}}\")"
+    ]
+  }
+}
